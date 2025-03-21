@@ -22,6 +22,7 @@ The Gold Layer is the business-leve data representation, structured to support a
 | birthdate | DATE | The date of birth of the customer, formated as YYYY-MM-DD (e.g., 1971-10-06). |
 | create_date | DATE | The date and time when the customer record was created in the system. |
 
+
 ### 2. gold.dim_products
 - Purpose: Provides information about the products and their attributes.
 - Columns:
@@ -39,6 +40,7 @@ The Gold Layer is the business-leve data representation, structured to support a
 | cost | INT | The cost or the base price of the product, measure in monetary units. |
 | product_line | NVARCHAR(50) | The specific product line or series to which the product belongs(e.g., Road, Mountain). |
 | start_date | DATE | The date when the product became available for sale or use, stored in. |
+
 
 ### 3. gold.fact_sales
 - Purpose: Stores transactional sales data for analytical purpose.
